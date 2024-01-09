@@ -1,0 +1,12 @@
+def factorial(n):
+  if n==0 or n==1:
+    return 1
+  else:
+    return n*factorial(n-1)
+  
+result=int(input("Enter the number:\n"))
+if result<0:
+  print("Negative factorials are not executed")
+  
+else:
+  print(factorial(result))
