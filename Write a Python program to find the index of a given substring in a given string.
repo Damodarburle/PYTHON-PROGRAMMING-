@@ -1,0 +1,15 @@
+def find_substring(main_string, sub_string):
+    index = main_string.find(sub_string)
+    return index
+
+# Input strings
+main_str = input("Enter the main string: ")
+sub_str = input("Enter the substring to find: ")
+
+# Find the index of the substring in the main string
+result_index = find_substring(main_str, sub_str)
+
+if result_index != -1:
+    print(f"The substring '{sub_str}' is found at index: {result_index}")
+else:
+    print("The substring is not found in the main string.")
