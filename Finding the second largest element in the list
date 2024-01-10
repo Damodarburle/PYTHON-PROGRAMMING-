@@ -1,0 +1,10 @@
+a = input("Enter the elements: ")
+b = a.split()
+lis = [int(item) for item in b]
+print(lis)
+
+
+sorted_list = sorted(set(lis), reverse=True)
+  
+second_largest = sorted_list[1]
+print("Second largest element is:", second_largest)
