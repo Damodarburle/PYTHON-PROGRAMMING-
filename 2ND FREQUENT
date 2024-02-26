@@ -1,0 +1,17 @@
+str1 = input()
+my_dict = {}
+
+for value in str1:
+    if value in my_dict:
+        my_dict[value] += 1
+    else:
+        my_dict[value] = 1
+
+sorted_dict = sorted(my_dict.items(), key=lambda x: x[1], reverse=True)
+
+if len(sorted_dict) > 1:
+    second_most_frequent_key = sorted_dict[1][0]
+    frequency = sorted_dict[1][1]
+    print(f"The second most frequent key is '{second_most_frequent_key}' with a frequency of {frequency}.")
+else:
+    print("There is no second most frequent key.")
