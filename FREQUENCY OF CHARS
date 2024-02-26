@@ -1,0 +1,10 @@
+str1=input()
+my_dict={}
+
+for value in str1:
+    if value in my_dict:
+        my_dict[value]+=1
+    else:
+        my_dict[value]=1
+for key,value in my_dict.items():
+    print(f"The frequency of  '{key}' is '{value}'")
