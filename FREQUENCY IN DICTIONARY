@@ -1,0 +1,27 @@
+def find_frequency(dictionary):
+    frequency = {}
+    
+    # Count the frequency of each element
+    for key, value in dictionary.items():
+        # Count key occurrences
+        if key in frequency:
+            frequency[key] += 1
+        else:
+            frequency[key] = 1
+        
+        # Count value occurrences
+        if value in frequency:
+            frequency[value] += 1
+        else:
+            frequency[value] = 1
+    
+    return frequency
+
+# Example dictionary
+my_dict = {'a': 10, 'b': 52, 'c': 7}
+
+# Find the frequency of all elements
+frequency = find_frequency(my_dict)
+
+# Print the frequency
+print(frequency)
