@@ -1,0 +1,4 @@
+my_tuple=(1,2,3,4,5)
+m=max(my_tuple)
+n=min(my_tuple)
+print(m,n)
