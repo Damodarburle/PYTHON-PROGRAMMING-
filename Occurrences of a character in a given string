@@ -1,0 +1,9 @@
+#Write a Python program to count the number of occurrences of a character in a given string
+m=input("Enter the valid string:")
+n=input("Enter the valid character:")
+
+count=0
+for c in m:
+    if c==n:
+        count=count+1
+print(count)
