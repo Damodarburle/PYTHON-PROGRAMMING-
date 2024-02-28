@@ -1,0 +1,9 @@
+#Write a Python program to find the frequency of all characters in a given string.
+M=input("Enter the valid string:")
+freq={}
+for i in M:
+    if i in freq:
+        freq[i]+=1
+    else:
+        freq[i]=1
+print(freq)
