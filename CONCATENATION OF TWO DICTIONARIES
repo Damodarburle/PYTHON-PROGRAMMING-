@@ -1,0 +1,6 @@
+# . Write a Python program to concatenate two dictionaries.
+my_dict={'a':1,'b':2,'c':5}
+my_dict1={'d':7,'e':8,'f':7}
+
+my_dict.update(my_dict1)
+print("Concatenation of two dictionaries",my_dict)
