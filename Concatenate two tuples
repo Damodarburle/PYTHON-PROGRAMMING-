@@ -1,0 +1,5 @@
+# . Write a Python program to concatenate two tuples
+my_tuple=(1,2,3,4,5)
+my_tuple1=(5,8,6,4)
+result=my_tuple+my_tuple1
+print(result)
