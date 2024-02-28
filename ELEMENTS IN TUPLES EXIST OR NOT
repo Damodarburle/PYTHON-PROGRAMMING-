@@ -1,0 +1,8 @@
+#. Write a Python program to convert a list of tuples to a list of lists.
+my_tuple=(2,3,4,5,8,6)
+k=10
+if k in my_tuple:
+    print("EXISTING",k)
+    
+else:
+    print("NOT EXISTING",k)
