@@ -1,0 +1,8 @@
+# Write a Python program to check if a given value exists in a given dictionary.
+my_dict={'a': 1,'b': 85,'c': 74}
+key_value=25
+
+if key_value in my_dict.values():
+    print("IT IS EXISTING:",key_value)
+else:
+    print("IT IS NOT EXISTING")
